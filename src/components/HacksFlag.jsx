@@ -7,7 +7,7 @@ const HacksFlag = () => {
 
       <img src={flag} className="h-full flex w-[10vw] ml-[0rem]" alt="Left Flag" />
 
-      <h1 className="text-white font-semibold flex text-[12vw] mb-[2vw] ml-[3vw] text-shadow font-Pixeboy">hacks/ctf</h1>
+      <h1 className="text-white font-semibold flex text-[12vw] mb-[2vw] ml-[3vw] text-shadow font-Pixeboy select-none">hacks/ctf</h1>
       
       <img src={flag} className="h-full ml-[7vw] w-[10vw] " alt="Right Flag" />
       

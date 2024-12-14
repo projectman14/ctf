@@ -23,13 +23,12 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`${
-          isOpen ? "block top-[7vh] bg-slate-600 py-4 gap-y-4" : "hidden bg-transparent"
-        } absolute left-0 w-full flex flex-col items-center md:flex md:flex-row md:static md:justify-between md:w-auto md:gap-x-[4vw]`}
+        className={`${isOpen ? "block top-[7vh] bg-slate-600 py-4 gap-y-4" : "hidden bg-transparent"
+          } absolute left-0 w-full flex flex-col items-center md:flex md:flex-row md:static md:justify-between md:w-auto md:gap-x-[4vw]`}
       >
-        <div className="relative">
-          <a 
-            className="ml-[2vw] gap-x-[1rem] text flex items-center justify-center text-center mt-[2vh] h-[5vh]" 
+        <div className="relative group">
+          <a
+            className="ml-[2vw] gap-x-[1rem] text flex items-center justify-center text-center mt-[2vh] h-[5vh] hover:text-white/90 transition-colors"
             href="#"
             onMouseEnter={() => setHoveredLink('TEAMS')}
             onMouseLeave={() => setHoveredLink(null)}
@@ -37,15 +36,25 @@ const Navbar = () => {
             TEAMS
           </a>
           {hoveredLink === 'TEAMS' && (
-            <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-gray-800 text-white text-sm px-3 py-2 rounded-md shadow-lg z-9">
-            Coming Soon
-          </div>
+            <div className="absolute top-full w-auto min-w-[6rem] left-1/2 transform -translate-x-1/2 mt-2">
+              <div className="relative">
+                <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2">
+                  <div className="absolute w-2 h-2 bg-slate-800/95 rotate-45 transform origin-bottom-left"></div>
+                </div>
+                <div className="relative bg-slate-800/95 backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
+                  <div className="flex items-center space-x-1">
+                    <span>Coming Soon</span>
+                    <span className="animate-pulse">✨</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           )}
         </div>
 
-        <div className="relative">
-          <a 
-            className="flex items-center justify-center text-center mt-[2vh] h-[5vh]" 
+        <div className="relative group">
+          <a
+            className="flex items-center justify-center text-center mt-[2vh] h-[5vh] hover:text-white/90 transition-colors"
             href="#"
             onMouseEnter={() => setHoveredLink('LEADERBOARD')}
             onMouseLeave={() => setHoveredLink(null)}
@@ -53,28 +62,73 @@ const Navbar = () => {
             LEADERBOARD
           </a>
           {hoveredLink === 'LEADERBOARD' && (
-            <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-gray-800 text-white text-sm px-3 py-2 rounded-md shadow-lg z-9">
-              Coming Soon
+            <div className="absolute top-full w-auto min-w-[6rem] left-1/2 transform -translate-x-1/2 mt-2">
+              <div className="relative">
+                <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2">
+                  <div className="absolute w-2 h-2 bg-slate-800/95 rotate-45 transform origin-bottom-left"></div>
+                </div>
+                <div className="relative bg-slate-800/95 backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
+                  <div className="flex items-center space-x-1">
+                    <span>Coming Soon</span>
+                    <span className="animate-pulse">✨</span>
+                  </div>
+                </div>
+              </div>
             </div>
           )}
         </div>
 
-        <a className="flex items-center justify-center text-center mt-[2vh] h-[5vh]" href="#">
-          CHALLENGES
-        </a>
-
-        <a className="flex items-center justify-center text-center mt-[2vh] h-[5vh]" href="#">
-          RULES
-        </a>
-
-        {/* <a className={`${ isOpen
-          ? "ml-[5vw]" : "ml-[14vw] pl-[4vw] pt-[0.2vw]"
-        } flex items-center justify-center w-[28vw] text-center mt-[2vh] h-[5vh]`} href="#">
-          REGISTER &nbsp; / &nbsp; SIGNIN
-          <a href="#12">
-            <img src={discord} className="ml-[2vw] mt-[1vh] h-[3vh]" alt="Discord" />
+        <div className="relative group">
+          <a
+            className="flex items-center justify-center text-center mt-[2vh] h-[5vh] hover:text-white/90 transition-colors"
+            href="#"
+            onMouseEnter={() => setHoveredLink('CHALLENGES')}
+            onMouseLeave={() => setHoveredLink(null)}
+          >
+            CHALLENGES
           </a>
-        </a> */}
+          {hoveredLink === 'CHALLENGES' && (
+            <div className="absolute top-full w-auto min-w-[6rem] left-1/2 transform -translate-x-1/2 mt-2">
+              <div className="relative">
+                <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2">
+                  <div className="absolute w-2 h-2 bg-slate-800/95 rotate-45 transform origin-bottom-left"></div>
+                </div>
+                <div className="relative bg-slate-800/95 backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
+                  <div className="flex items-center space-x-1">
+                    <span>Coming Soon</span>
+                    <span className="animate-pulse">✨</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+
+        <div className="relative group">
+          <a
+            className="flex items-center justify-center text-center mt-[2vh] h-[5vh] hover:text-white/90 transition-colors"
+            href="#"
+            onMouseEnter={() => setHoveredLink('RULES')}
+            onMouseLeave={() => setHoveredLink(null)}
+          >
+            RULES
+          </a>
+          {hoveredLink === 'RULES' && (
+            <div className="absolute top-full w-auto min-w-[6rem] left-1/2 transform -translate-x-1/2 mt-2">
+              <div className="relative">
+                <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2">
+                  <div className="absolute w-2 h-2 bg-slate-800/95 rotate-45 transform origin-bottom-left"></div>
+                </div>
+                <div className="relative bg-slate-800/95 backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
+                  <div className="flex items-center space-x-1">
+                    <span>Coming Soon</span>
+                    <span className="animate-pulse">✨</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
