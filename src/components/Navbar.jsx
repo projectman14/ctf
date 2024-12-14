@@ -67,14 +67,14 @@ const Navbar = () => {
           RULES
         </a>
 
-        <a className={`${ isOpen
+        {/* <a className={`${ isOpen
           ? "ml-[5vw]" : "ml-[14vw] pl-[4vw] pt-[0.2vw]"
         } flex items-center justify-center w-[28vw] text-center mt-[2vh] h-[5vh]`} href="#">
           REGISTER &nbsp; / &nbsp; SIGNIN
           <a href="#12">
             <img src={discord} className="ml-[2vw] mt-[1vh] h-[3vh]" alt="Discord" />
           </a>
-        </a>
+        </a> */}
       </div>
     </div>
   );
