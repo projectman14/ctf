@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`${isOpen ? "block top-[7vh] bg-slate-600 py-4 gap-y-4" : "hidden bg-transparent"
+        className={`${isOpen ? "block top-[7vh] bg-[#3C9564] py-4 gap-y-4" : "hidden bg-transparent"
           } absolute left-0 w-full flex flex-col items-center md:flex md:flex-row md:static md:justify-between md:w-auto md:gap-x-[4vw]`}
       >
         <div className="relative group">
@@ -39,9 +39,9 @@ const Navbar = () => {
             <div className="absolute top-full w-auto min-w-[6rem] left-1/2 transform -translate-x-1/2 mt-2">
               <div className="relative">
                 <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2">
-                  <div className="absolute w-2 h-2 bg-slate-800/95 rotate-45 transform origin-bottom-left"></div>
+                  <div className="absolute w-2 h-2 bg-[#3C9564] rotate-45 transform origin-bottom-left"></div>
                 </div>
-                <div className="relative bg-slate-800/95 backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
+                <div className="relative bg-[#3C9564] backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
                   <div className="flex items-center space-x-1">
                     <span>Coming Soon</span>
                     <span className="animate-pulse">✨</span>
@@ -65,9 +65,9 @@ const Navbar = () => {
             <div className="absolute top-full w-auto min-w-[6rem] left-1/2 transform -translate-x-1/2 mt-2">
               <div className="relative">
                 <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2">
-                  <div className="absolute w-2 h-2 bg-slate-800/95 rotate-45 transform origin-bottom-left"></div>
+                  <div className="absolute w-2 h-2 bg-[#3C9564] rotate-45 transform origin-bottom-left"></div>
                 </div>
-                <div className="relative bg-slate-800/95 backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
+                <div className="relative bg-[#3C9564] backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
                   <div className="flex items-center space-x-1">
                     <span>Coming Soon</span>
                     <span className="animate-pulse">✨</span>
@@ -91,9 +91,9 @@ const Navbar = () => {
             <div className="absolute top-full w-auto min-w-[6rem] left-1/2 transform -translate-x-1/2 mt-2">
               <div className="relative">
                 <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2">
-                  <div className="absolute w-2 h-2 bg-slate-800/95 rotate-45 transform origin-bottom-left"></div>
+                  <div className="absolute w-2 h-2 bg-[#3C9564] rotate-45 transform origin-bottom-left"></div>
                 </div>
-                <div className="relative bg-slate-800/95 backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
+                <div className="relative bg-[#3C9564] backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
                   <div className="flex items-center space-x-1">
                     <span>Coming Soon</span>
                     <span className="animate-pulse">✨</span>
@@ -117,9 +117,9 @@ const Navbar = () => {
             <div className="absolute top-full w-auto min-w-[6rem] left-1/2 transform -translate-x-1/2 mt-2">
               <div className="relative">
                 <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2">
-                  <div className="absolute w-2 h-2 bg-slate-800/95 rotate-45 transform origin-bottom-left"></div>
+                  <div className="absolute w-2 h-2 bg-[#3C9564] rotate-45 transform origin-bottom-left"></div>
                 </div>
-                <div className="relative bg-slate-800/95 backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
+                <div className="relative bg-[#3C9564] backdrop-blur-sm text-white text-xs px-3 py-2 rounded-md shadow-lg">
                   <div className="flex items-center space-x-1">
                     <span>Coming Soon</span>
                     <span className="animate-pulse">✨</span>
