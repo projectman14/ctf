@@ -15,7 +15,7 @@ const Navbar = () => {
         className="ml-auto flex items-center md:hidden"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <div className="flex flex-col space-y-[4px] cursor-pointer">
+        <div className="flex flex-col space-y-[4px] -ml-[2rem] cursor-pointer">
           <span className="block w-[24px] h-[3px] bg-white"></span>
           <span className="block w-[24px] h-[3px] bg-white"></span>
           <span className="block w-[24px] h-[3px] bg-white"></span>
@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`${isOpen ? "block top-[7vh] bg-[#3C9564] py-4 gap-y-4" : "hidden bg-transparent"
+        className={`${isOpen ? "block top-[7vh] bg-[#3C9564] py-4 gap-y-4 md:hidden" : "hidden bg-transparent"
           } absolute left-0 w-full flex flex-col items-center md:flex md:flex-row md:static md:justify-between md:w-auto md:gap-x-[4vw]`}
       >
         <div className="relative group">
