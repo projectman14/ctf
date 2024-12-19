@@ -16,7 +16,7 @@ export default {
         'Public-sans' : ["Public Sans", 'sans-serif'] ,
       },
       backgroundImage: {
-        'updated-frontpage': "url('../src/assets/images/updatedfrontpage.png')",
+        'updated-frontpage': "url('../src/assets/images/updatedbackgroundimagept2.jpg')",
       },
       keyframes: {
         'slide-down-fade': {
