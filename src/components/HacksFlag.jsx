@@ -1,20 +1,30 @@
+
 import '../index.css';
 import flag from "../assets/images/flag.svg";
+
 const HacksFlag = () => {
   return (
-<>
-<div className="h-[19vh] top-[32vh] w-full flex flex-row justify-between gap-x-[4vw] items-center px-[9.5vw] bg-cover bg-center overflow-hidden object-cover relative">
+    <div className="h-[19vh] min-h-[19rem] top-[20vh] w-full flex justify-center items-center px-[9.5vw] bg-cover bg-center overflow-hidden object-cover relative muxsm:gap-[1rem]  ">
+      {/* Left flag */}
+      <img
+        src={flag}
+        className="h-[10vw] animate-flag-wave "
+        alt="Left Flag"
+      />
 
-      <img src={flag} className="h-full flex w-[10vw] ml-[0rem]" alt="Left Flag" />
+      {/* Text */}
+      <h1 className="text-white font-semibold text-[12vw] text-shadow font-Pixeboy select-none animate-text-pulse">
+        HACKS/CTF
+      </h1>
 
-      <h1 className="text-white font-semibold flex text-[12vw] mb-[2vw] ml-[3vw] text-shadow font-Pixeboy select-none">hacks/ctf</h1>
-      
-      <img src={flag} className="h-full ml-[7vw] w-[10vw] " alt="Right Flag" />
-      
-</div>
-</>
-    
-  )
-}
+      {/* Right flag */}
+      <img
+        src={flag}
+        className="h-[10vw] animate-flag-wave"
+        alt="Right Flag"
+      />
+    </div>
+  );
+};
 
-export default HacksFlag
+export default HacksFlag;

@@ -15,6 +15,20 @@ export default {
         'Pixeboy': ['Pixeboy', 'sans-serif'],
         'Public-sans' : ["Public Sans", 'sans-serif'] ,
       },
+      screens:{
+        muxsm: "200px", 
+        uxsm: "300px", 
+        xsm: "450px",
+        sm: "640px", 
+        md: "768px", 
+        lg: "1024px", 
+        xl: "1280px", 
+        "2xl": "1536px", 
+        uxl: "1640px",
+        c1: "1800px",
+        c2: "2000px",
+        
+      },      
       backgroundImage: {
         'updated-frontpage': "url('../src/assets/images/updatedfrontpage.png')",
         'updated-frontpage2': "url('../src/assets/images/updatedbackgroundimagept2.jpg')",
