@@ -4,11 +4,11 @@ import flag from "../assets/images/flag.svg";
 
 const HacksFlag = () => {
   return (
-    <div className="h-[19vh] min-h-[19rem] top-[20vh] w-full flex justify-center items-center px-[9.5vw] bg-cover bg-center overflow-hidden object-cover relative muxsm:gap-[1rem]  ">
+    <div className="h-[19vh] top-[32vh] w-full flex justify-center items-center px-[9.5vw] bg-cover bg-center overflow-hidden object-cover relative muxsm:gap-[1rem] xl:gap-[3.5vw]">
       {/* Left flag */}
       <img
         src={flag}
-        className="h-[10vw] animate-flag-wave "
+        className="h-[10vw] animate-flag-wave"
         alt="Left Flag"
       />
 
