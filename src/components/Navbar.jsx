@@ -24,7 +24,7 @@ const Navbar = () => {
 
       <div
         className={`${isOpen ? "block top-[7vh] bg-[#3C9564] py-4 gap-y-4 md:hidden" : "hidden bg-transparent"
-          } absolute left-0 w-full flex flex-col items-center md:flex md:flex-row md:static md:justify-between md:w-auto md:gap-x-[4vw] `}
+          } absolute left-0 w-[80vw] xsm:ml-[4rem] flex flex-col items-center md:flex md:flex-row md:static md:justify-between md:w-auto md:gap-x-[4vw] `}
       >
         <div className="relative group">
           <a
